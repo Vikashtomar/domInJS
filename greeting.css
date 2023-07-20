@@ -1,0 +1,19 @@
+.greeting{
+    width: 500px;
+    height: 200px;
+    background-color: purple;
+    margin: 30px auto;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+button{
+    background-color: #1d011d63;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    font-size: 22px;
+}

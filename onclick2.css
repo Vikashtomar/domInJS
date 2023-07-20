@@ -1,0 +1,12 @@
+#textchange{
+    width: 500px;
+    background-color: maroon;
+    height: 200px;
+    padding: 20px;
+    color: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#para{
+    min-height: 100px;
+}

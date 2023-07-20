@@ -1,0 +1,57 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Has Attribute</title>
+  </head>
+  <style>
+    #dummy {
+      width: 50%;
+      height: 200px;
+      padding: 20px;
+      margin: auto;
+      border-radius: 15px;
+      background-color: tan;
+    }
+  </style>
+  <body>
+    <div id="dummy" class="abc">
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, quis
+        animi? Perspiciatis fuga, repellendus vitae necessitatibus ipsam fugit
+        assumenda veritatis porro facere. Sequi nesciunt hic reiciendis fugit ad
+        modi quasi?
+      </p>
+    </div>
+
+    <script>
+
+      // Has attribute method 
+      // -> has attribute method will check that is there any class or id
+       // in their same div then div then it will return the output true 
+       // otherwise it will give the o/p
+       // p false
+
+
+      // let a = document.getElementById("dummy");
+      // let b = a.hasAttribute("class");
+      // console.log(b);
+
+
+
+
+      // has childNodes
+      // in haschildNode will check is there any content or tag in the child of the 
+      // div then it will give o/p true otherwise it will give the output false
+
+
+      let a = document.getElementById("dummy");
+      let b = a.hasChildNodes("h1");
+      console.log(b)
+    </script>
+  </body>
+</html>

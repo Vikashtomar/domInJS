@@ -1,0 +1,46 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="first">
+      <ul>
+        <li>Naman</li>
+        <li>Jatin</li>
+        <li>Aman</li>
+        <li>Jay</li>
+        <li>vik</li>
+      </ul>
+    </div>
+    <div id="second">
+      <ul>
+        <li>Naman</li>
+        <li>Jatin</li>
+        <li>Aman</li>
+        <li>Jay</li>
+        <li>vik</li>
+      </ul>
+    </div>
+
+    <script>
+      //   let flist = document.getElementById("first").lastElementChild;
+      //   let slist = document.getElementById("second").lastElementChild;
+      //   let result = flist.isEqualNode(slist);
+      //   console.log(result);
+
+      // let  slist = document.getElementById("second");
+
+      var a = document.getElementById("first").lastElementChild;
+
+      var b = document.getElementById("second").lastElementChild;
+
+      var c = a.isEqualNode(b);
+      console.log(c);
+    </script>
+  </body>
+</html>

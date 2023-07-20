@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="onclick2.css">
+</head>
+<body>
+    <div id="textchange">
+        <p id="para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore numquam similique totam quam labore placeat nihil exercitationem ullam odio, laudantium sit corrupti, deserunt doloribus facere. Vitae porro ab odio.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi officiis eaque quia, quaerat eveniet magni explicabo vero fuga velit veniam voluptatum amet fugiat, mollitia quis rem modi minima sint voluptate!
+        </p>
+        
+        <button  onclick="changeme()">Change</button>
+        <button onclick="resetme()">Reset</button>
+    </div>
+
+</body>
+<script>
+ let p = document.getElementById("para");
+ 
+ function changeme()
+ {
+    p.innerHTML = " ";
+ }
+ function resetme()
+ {
+    p.innerHTML = " quam labore placeat nihil exercitationem ullam odio, laudantium sit corrupti, deserunt doloribus facer"
+ }
+ 
+</script>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Element</title>
+</head>
+<body>
+    <script>
+        document.write("create Element and create textNode");
+
+        // Dom Create Method
+        // 1> Create Element
+        // 2> Create content ()
+        // 3> Create Comment
+
+        // 1 >> Create Element :
+        // Create Element is used to create tag in html exa: p, h1.
+
+        // let a = document.createElement("p");
+        // console.log(a)
+
+        // let h1tag = document.createElement("h1");
+        // console.log(h1tag)
+
+
+        // 2> Create Text node
+        // Create text node is used to add text in the html through javascript.
+
+        // let a = document.createTextNode("Hello world");
+         // console.log(a);
+        // document.write(a)
+
+        // 3> Create commnent 
+        // Create comment is used to create the comment in html
+        // through javascript
+
+
+        // let cmnt = document.createComment("This is comment");
+        // console.log(cmnt);
+
+        // Append Child is used to add text to any tag in html
+
+
+
+        let a = document.createElement("h1");
+        let b = document.createTextNode("Hello World");
+        a.appendChild(b);
+        console.log(a);
+    </script>
+</body>
+</html>

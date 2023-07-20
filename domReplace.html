@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Replace</title>
+</head>
+<body>
+    <div class="list">
+        <ul id="veg">
+            <li>Onion</li>
+            <li>Potato</li>
+            <li>Tomato</li>
+            <li>Ginger</li>
+          
+        </ul>
+
+        </div>
+
+    <script>
+        // Replace Method
+        // -> Replace child method is used to replace the text 
+        // syntax
+
+        // replaceChild( newelement , oldelement);
+        
+
+        // -> we will replace tomato with garlic 
+
+    //    let neww = document.createElement("li");
+    //    let change = document.createTextNode("Garlic");
+    //    neww.appendChild(change);
+    //    // console.log(neww);
+
+    //    let tar = document.getElementById("veg");
+    //     let old = tar.children[2];
+    //     tar.replaceChild(neww,old);
+
+    
+
+    // Remove Method 
+    // This method will remove element in the html.
+
+     let neww = document.createElement("li");
+       let change = document.createTextNode("Garlic");
+
+       neww.appendChild(change);
+
+       let tar = document.getElementById("veg");
+       let old = tar.children[2];
+       tar.remove(old);
+
+
+
+
+    
+    </script>
+</body>
+</html>

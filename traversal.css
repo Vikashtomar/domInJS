@@ -1,0 +1,76 @@
+#outerbox
+{
+    width: 1000px;
+    height: 500px;
+    background-color: maroon;
+    padding: 20px;
+    margin: 20px auto;
+    color: #fff;
+    border-radius: 15px;
+}
+#innerbox
+{
+    width: 900px;
+    height: 300px;
+    background-color:darkcyan;
+    padding: 20px;
+    margin: 20px auto;
+    color: #fff;
+    border-radius: 15px; 
+}
+.first
+{
+    width: 140px;
+    height: 150px;
+    background-color: darkkhaki;
+    border-radius: 15px;
+    text-align: center; 
+    padding: 10px;
+    margin-right: 20px;
+}
+.second
+{
+    width: 140px;
+    height: 150px;
+    background-color: darkkhaki;
+    border-radius: 15px;
+    text-align: center; 
+    padding: 10px;
+    margin-right: 20px;
+}
+.third
+{
+    width: 140px;
+    height: 150px;
+    background-color: darkkhaki;
+    border-radius: 15px;
+    text-align: center; 
+    padding: 10px;
+    margin-right: 20px; 
+}
+.four
+{
+    width: 140px;
+    height: 150px;
+    background-color: darkkhaki;
+    border-radius: 15px;
+    text-align: center; 
+    padding: 10px;
+    margin-right: 20px;  
+}
+.fifth
+{
+    width: 140px;
+    height: 150px;
+    background-color: darkkhaki;
+    border-radius: 15px;
+    text-align: center; 
+    padding: 10px;
+    margin-right: 20px;   
+}
+#innerbox
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
